@@ -14,9 +14,15 @@ Additionally, the `timestep` can be set in `parameters.json`.
 
 ## Parameters:
 
-* `t0`: initial temperature; default is `12`; units are `°C`
-* `water_depth`: water depth; default is `10`; units are `m`
-* `timestep`: model timestep; default is `(365.2422 * 24 * 60 * 60 ) / 90`; units are `s`
+* `t0`: base value for initial temperature
+    * default is `12`
+    * units are `°C`
+* `water_depth`: depth of zonal_mean_surface domain, which the heat capacity is dependent on
+    * default is `10`
+    * units are `m`
+* `timestep`: specifies the EBM’s timestep
+    * default is `(365.2422 * 24 * 60 * 60 ) / 90`
+    * units are `s`
 
 ## Outputs:
 
