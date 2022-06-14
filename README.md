@@ -7,7 +7,7 @@ This model is based on the Climlab [example available here](https://climlab.read
 This model can be run with:
 
 ```
-python main.py --t0=11.1 --water_depth=12  
+python3 main.py --t0=11.1 --water_depth=12  
 ```
 
 Additionally, the `timestep` can be set in `parameters.json`.
