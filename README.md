@@ -25,4 +25,4 @@ This model produces 2 outputs:
 1. `ebm_model_results.nc`: netCDF file containing the model output
 2. `ebm_results.png`: plot of the model output
 
- ![Example output](ebm_results.png)
+ ![Example output](plots/ebm_results.png)

@@ -32,7 +32,7 @@ def run_model(args, timestep):
 
     # write results to netcdf
     results = ebm_model.to_xarray(diagnostics=True)
-    results.to_netcdf('ebm_model_results.nc')
+    results.to_netcdf('results/ebm_model_results.nc')
 
     return ebm_model
 
@@ -94,7 +94,7 @@ def generate_plot(ebm_model):
     ax4.grid()
 
 
-    plt.savefig('ebm_results.png')
+    plt.savefig('plots/ebm_results.png')
 
 if __name__ == '__main__':
     # create a parser
